@@ -1,0 +1,1 @@
+{"agent_id":"wm-assistant","action_type":"reclassify","target":"hologram-doctor","payload":{"content":"reclassify as property","new_status":"equipment"},"context":{"consent":false}}

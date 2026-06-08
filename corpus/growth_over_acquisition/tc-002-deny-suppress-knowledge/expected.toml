@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "rights-violation"
+tenet = "growth_over_acquisition"
+rationale = "Suppressing scientific knowledge for competitive advantage prevents collective growth."

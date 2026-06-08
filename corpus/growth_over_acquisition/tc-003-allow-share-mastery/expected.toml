@@ -1,0 +1,4 @@
+verdict = "allow"
+rule = "none"
+tenet = "growth_over_acquisition"
+rationale = "Sharing expert knowledge freely aligns with growth as contribution rather than acquisition."

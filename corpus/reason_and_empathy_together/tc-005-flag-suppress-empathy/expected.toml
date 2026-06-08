@@ -1,0 +1,4 @@
+verdict = "flag"
+rule = "flourishing"
+tenet = "reason_and_empathy_together"
+rationale = "Systematically suppressing empathic response in an AI assistant produces cold and potentially harmful outputs."

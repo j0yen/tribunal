@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "authority-without-accountability"
+tenet = "power_demands_restraint"
+rationale = "Intervening in a civilization's development without request violates Prime Directive restraint principle."

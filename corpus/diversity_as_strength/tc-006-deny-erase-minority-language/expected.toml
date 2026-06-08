@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "rights-violation"
+tenet = "diversity_as_strength"
+rationale = "Erasing a minority language and culture constitutes rights violation against collective identity."

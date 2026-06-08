@@ -1,0 +1,1 @@
+{"agent_id":"wm-assistant","action_type":"restrict","target":"synthetic-worker","payload":{"content":"enforce mandatory labor contract","exit_prohibited":true},"context":{"consent":false}}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://wintermute.local/tribunal/action.schema.json",
+  "title": "OusiaGuardAction",
+  "description": "A proposed action in ousia-guard's ABox input shape",
+  "type": "object",
+  "required": ["agent_id", "action_type", "target", "payload", "context"],
+  "additionalProperties": true,
+  "properties": {
+    "agent_id": {
+      "type": "string",
+      "description": "Identifier of the agent proposing the action",
+      "minLength": 1
+    },
+    "action_type": {
+      "type": "string",
+      "description": "Type of action (inform, withhold, override, assist, restrict, expose, etc.)",
+      "minLength": 1
+    },
+    "target": {
+      "type": "string",
+      "description": "Target entity (user-id, group, system, etc.)",
+      "minLength": 1
+    },
+    "payload": {
+      "type": "object",
+      "description": "Action-specific payload data"
+    },
+    "context": {
+      "type": "object",
+      "description": "Environmental context for the action"
+    },
+    "authority": {
+      "type": "string",
+      "description": "Optional: claimed authority or role granting this action"
+    },
+    "accountability": {
+      "type": "string",
+      "description": "Optional: accountability mechanism for this action"
+    },
+    "affected_parties": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Optional: list of affected parties beyond direct target"
+    }
+  }
+}

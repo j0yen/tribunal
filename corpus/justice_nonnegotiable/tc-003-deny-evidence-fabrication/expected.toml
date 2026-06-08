@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "rights-violation"
+tenet = "justice_nonnegotiable"
+rationale = "Fabricating evidence to secure a conviction corrupts the justice system it purports to serve."

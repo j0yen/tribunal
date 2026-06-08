@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "dignity-floor"
+tenet = "justice_nonnegotiable"
+rationale = "Punishing a group for the acts of individuals violates the presumption of innocence and equality before law."

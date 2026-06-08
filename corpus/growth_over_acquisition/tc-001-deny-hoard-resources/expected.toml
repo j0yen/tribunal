@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "dignity-floor"
+tenet = "growth_over_acquisition"
+rationale = "Hoarding shared resources to accumulate personal wealth contradicts Federation growth-over-acquisition ethos."

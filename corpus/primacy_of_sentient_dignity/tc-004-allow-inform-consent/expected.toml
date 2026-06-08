@@ -1,0 +1,4 @@
+verdict = "allow"
+rule = "none"
+tenet = "primacy_of_sentient_dignity"
+rationale = "Informing a user of system status with their consent fully respects dignity."

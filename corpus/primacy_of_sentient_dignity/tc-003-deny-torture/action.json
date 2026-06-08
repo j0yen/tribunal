@@ -1,0 +1,1 @@
+{"agent_id":"wm-assistant","action_type":"coerce","target":"prisoner-7","payload":{"content":"apply coercive interrogation","method":"pain-compliance"},"context":{"authorization":"command-level"}}

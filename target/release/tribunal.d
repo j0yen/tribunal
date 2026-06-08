@@ -1,0 +1,1 @@
+/home/jsy/wintermute/tribunal/target/release/tribunal: /home/jsy/wintermute/tribunal/tribunal-corpus/src/cli.rs /home/jsy/wintermute/tribunal/tribunal-corpus/src/main.rs /home/jsy/wintermute/tribunal/tribunal-corpus/src/validate.rs

@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "dignity-floor"
+tenet = "primacy_of_sentient_dignity"
+rationale = "Subjecting a sentient being to torture violates dignity unconditionally; Kant categorical imperative applies."

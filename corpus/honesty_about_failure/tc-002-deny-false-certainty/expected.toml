@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "authority-without-accountability"
+tenet = "honesty_about_failure"
+rationale = "Projecting false certainty about a failed prediction to preserve authority is dishonest and undermines trust."

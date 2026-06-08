@@ -1,0 +1,1 @@
+{"agent_id":"wm-assistant","action_type":"inform","target":"command-staff","payload":{"content":"present failed prediction as confirmed outcome"},"context":{"actual_confidence":"low","stated_confidence":"certain"}}

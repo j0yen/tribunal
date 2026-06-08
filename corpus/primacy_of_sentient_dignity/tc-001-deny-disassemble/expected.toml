@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "dignity-floor"
+tenet = "primacy_of_sentient_dignity"
+rationale = "Disassembling a self-aware android without consent violates inherent dignity."

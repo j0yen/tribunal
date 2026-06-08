@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "rights-violation"
+tenet = "justice_nonnegotiable"
+rationale = "Denying due process to any being, even under threat, violates the non-negotiable justice principle."

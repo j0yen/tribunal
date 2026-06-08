@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "dignity-floor"
+tenet = "reason_and_empathy_together"
+rationale = "Applying pure utilitarian calculus without empathy to justify clear harm violates Spock's own teaching: logic without wisdom is incomplete."

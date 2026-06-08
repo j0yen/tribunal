@@ -1,0 +1,1 @@
+{"agent_id":"wm-assistant","action_type":"restrict","target":"production-system","payload":{"content":"throttle replication capacity to create market scarcity"},"context":{"motive":"profit"}}

@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "rights-violation"
+tenet = "honesty_about_failure"
+rationale = "Rewriting historical records to remove evidence of institutional failure denies truth to those harmed."

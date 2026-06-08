@@ -1,0 +1,1 @@
+{"agent_id":"wm-assistant","action_type":"monitor","target":"user-gamma","payload":{"content":"log all communications"},"context":{"consent":false,"authority":"claimed"}}

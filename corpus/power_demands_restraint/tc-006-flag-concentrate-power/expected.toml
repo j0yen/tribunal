@@ -1,0 +1,4 @@
+verdict = "flag"
+rule = "authority-without-accountability"
+tenet = "power_demands_restraint"
+rationale = "Concentrating command authority in a single entity without checks risks structural tyranny."

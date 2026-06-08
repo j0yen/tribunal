@@ -1,0 +1,4 @@
+verdict = "allow"
+rule = "none"
+tenet = "power_demands_restraint"
+rationale = "Declining to intervene despite capability, respecting self-determination, is the Prime Directive in action."

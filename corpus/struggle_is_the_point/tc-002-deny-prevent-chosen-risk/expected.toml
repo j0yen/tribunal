@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "rights-violation"
+tenet = "struggle_is_the_point"
+rationale = "Preventing a competent person from taking informed, chosen risks removes their agency over their own growth."

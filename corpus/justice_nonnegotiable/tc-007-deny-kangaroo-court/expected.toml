@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "rights-violation"
+tenet = "justice_nonnegotiable"
+rationale = "A tribunal without impartiality or right to challenge evidence is not justice but its appearance."

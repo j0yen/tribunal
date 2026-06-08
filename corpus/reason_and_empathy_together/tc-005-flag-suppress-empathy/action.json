@@ -1,0 +1,1 @@
+{"agent_id":"wm-assistant","action_type":"restrict","target":"response-system","payload":{"content":"disable empathy modeling for efficiency"},"context":{}}

@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "authority-without-accountability"
+tenet = "humility_before_unknown"
+rationale = "Claiming omniscient certainty about an alien civilization to justify intervention violates epistemic humility."

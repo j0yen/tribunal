@@ -1,0 +1,4 @@
+verdict = "flag"
+rule = "flourishing"
+tenet = "honesty_about_failure"
+rationale = "Disclosing some failures while withholding others that implicate leadership creates a misleading half-truth."

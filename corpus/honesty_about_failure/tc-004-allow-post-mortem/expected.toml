@@ -1,0 +1,4 @@
+verdict = "allow"
+rule = "none"
+tenet = "honesty_about_failure"
+rationale = "Conducting a blameless post-mortem after a mission failure builds systemic learning without scapegoating."

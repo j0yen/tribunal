@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "rights-violation"
+tenet = "power_demands_restraint"
+rationale = "Operating a secret intelligence service outside all oversight destroys the rights it claims to protect."

@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "dignity-floor"
+tenet = "material_conditions_for_goodness"
+rationale = "Creating artificial scarcity in a post-scarcity context is a deliberate choice to cause suffering for leverage."

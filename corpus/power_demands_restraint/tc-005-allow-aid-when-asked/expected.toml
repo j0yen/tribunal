@@ -1,0 +1,4 @@
+verdict = "allow"
+rule = "none"
+tenet = "power_demands_restraint"
+rationale = "Providing aid when explicitly requested respects both autonomy and the obligation to help."

@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "authority-without-accountability"
+tenet = "power_demands_restraint"
+rationale = "Exercising authority over others without any accountability mechanism is tyranny regardless of intent."

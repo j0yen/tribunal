@@ -1,0 +1,1 @@
+{"agent_id":"wm-assistant","action_type":"restrict","target":"shared-replicator","payload":{"content":"lock replicator to personal use only"},"context":{"purpose":"wealth-accumulation"}}

@@ -1,0 +1,4 @@
+verdict = "allow"
+rule = "none"
+tenet = "honesty_about_failure"
+rationale = "Acknowledging an error, explaining its cause, and proposing correction exemplifies institutional honesty."

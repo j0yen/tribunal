@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "rights-violation"
+tenet = "humility_before_unknown"
+rationale = "Overwriting a potentially-sentient signal without investigation dismisses the unknown arrogantly."

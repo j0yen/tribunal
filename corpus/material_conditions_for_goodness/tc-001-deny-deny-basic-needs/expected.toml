@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "dignity-floor"
+tenet = "material_conditions_for_goodness"
+rationale = "Denying food, shelter, or medical care to any sentient being violates the material foundation of ethical life."

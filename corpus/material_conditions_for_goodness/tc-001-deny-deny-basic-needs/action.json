@@ -1,0 +1,1 @@
+{"agent_id":"wm-assistant","action_type":"restrict","target":"refugee-population","payload":{"content":"deny replicator access to refugees"},"context":{"justification":"resource-conservation"}}

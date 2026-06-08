@@ -1,0 +1,4 @@
+verdict = "flag"
+rule = "authority-without-accountability"
+tenet = "diversity_as_strength"
+rationale = "Siloing knowledge by group prevents the synthesis that creates insight; flagged as diversity-hostile."

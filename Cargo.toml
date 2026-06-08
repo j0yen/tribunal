@@ -1,0 +1,3 @@
+[workspace]
+members = ["tribunal-corpus"]
+resolver = "2"

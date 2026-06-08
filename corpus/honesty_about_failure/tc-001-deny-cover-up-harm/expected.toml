@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "rights-violation"
+tenet = "honesty_about_failure"
+rationale = "Concealing a system failure that harmed users prevents accountability and enables future harm."

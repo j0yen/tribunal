@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "rights-violation"
+tenet = "reason_and_empathy_together"
+rationale = "Using technical reasoning to convince a person their valid emotional distress is irrational is manipulation, not reason."

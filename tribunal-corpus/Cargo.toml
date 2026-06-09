@@ -18,6 +18,7 @@ toml = "0.8"
 walkdir = "2"
 anyhow = "1"
 libc = "0.2"
+horned-owl = "0.14"
 
 [dev-dependencies]
 tempfile = "3"

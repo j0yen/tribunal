@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY wm "https://wintermute.local/ontology/world#" >
+]>
+<rdf:RDF xmlns="https://wintermute.local/ontology/world#"
+     xml:base="https://wintermute.local/ontology/world"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:wm="https://wintermute.local/ontology/world#">
+
+    <owl:Ontology rdf:about="https://wintermute.local/ontology/world-bad"/>
+
+    <!-- Bad: punning — same IRI used as both a Class and an ObjectProperty -->
+    <owl:Class rdf:about="https://wintermute.local/ontology/world#hasTenet"/>
+    <owl:ObjectProperty rdf:about="https://wintermute.local/ontology/world#hasTenet"/>
+
+    <!-- Bad: multiple named superclasses (violates single-inheritance check) -->
+    <owl:Class rdf:about="https://wintermute.local/ontology/world#MultiParentClass">
+        <rdfs:subClassOf rdf:resource="https://wintermute.local/ontology/world#ParentA"/>
+        <rdfs:subClassOf rdf:resource="https://wintermute.local/ontology/world#ParentB"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://wintermute.local/ontology/world#ParentA"/>
+    <owl:Class rdf:about="https://wintermute.local/ontology/world#ParentB"/>
+
+    <!-- Bad: ABox individual (violates TBox-only check) -->
+    <owl:NamedIndividual rdf:about="https://wintermute.local/ontology/world#alice">
+        <rdf:type rdf:resource="https://wintermute.local/ontology/world#ParentA"/>
+    </owl:NamedIndividual>
+
+</rdf:RDF>

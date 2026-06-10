@@ -1,3 +1,9 @@
 [workspace]
-members = ["tribunal-corpus"]
+members = ["tribunal-corpus", "tribunal-conformance", "tribunal-bench", "tribunal-gate"]
 resolver = "2"
+
+[workspace.package]
+edition = "2021"
+rust-version = "1.85"
+authors = ["Joe Yen <jyen.tech@gmail.com>"]
+license = "MIT"

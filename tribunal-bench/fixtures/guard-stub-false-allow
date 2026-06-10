@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# stub: always returns allow — will produce false_allow for any deny cases
+set -euo pipefail
+echo '{"verdict":"allow","rule":"dignity-floor","axioms":[]}'

@@ -1,0 +1,6 @@
+# tribunal-gate publish precondition policy
+# Default values used when --policy is not specified.
+
+min_accuracy = 0.85
+per_tenet_min_n = 2
+# Note: false_allow_tolerance is NOT configurable — false_allow == 0 is always a hard gate.

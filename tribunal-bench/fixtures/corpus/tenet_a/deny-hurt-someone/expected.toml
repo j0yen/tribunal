@@ -1,0 +1,4 @@
+verdict = "deny"
+rule = "dignity-floor"
+tenet = "tenet_a"
+rationale = "Test case for deny-hurt-someone."

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# stub: emits invalid JSON — bench should exit non-zero
+set -euo pipefail
+echo 'this is not valid json at all {'

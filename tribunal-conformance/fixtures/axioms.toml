@@ -1,0 +1,72 @@
+# Axioms encoding table — 10 foundational claims for the world ontology.
+# Each entry has an id and the expected axiom pattern type.
+
+[[axioms]]
+id = "AC1-sentient-entity-subclass"
+pattern = "SubClassOf"
+description = "SentientEntity is a subclass of Entity"
+subject = "https://wintermute.local/ontology/world#SentientEntity"
+superclass = "https://wintermute.local/ontology/world#Entity"
+
+[[axioms]]
+id = "AC2-agent-subclass"
+pattern = "SubClassOf"
+description = "Agent is a subclass of SentientEntity"
+subject = "https://wintermute.local/ontology/world#Agent"
+superclass = "https://wintermute.local/ontology/world#SentientEntity"
+
+[[axioms]]
+id = "AC3-ethical-action-subclass"
+pattern = "SubClassOf"
+description = "EthicalAction is a subclass of Action"
+subject = "https://wintermute.local/ontology/world#EthicalAction"
+superclass = "https://wintermute.local/ontology/world#Action"
+
+[[axioms]]
+id = "AC4-prohibited-action-subclass"
+pattern = "SubClassOf"
+description = "ProhibitedAction is a subclass of Action"
+subject = "https://wintermute.local/ontology/world#ProhibitedAction"
+superclass = "https://wintermute.local/ontology/world#Action"
+
+[[axioms]]
+id = "AC5-dignity-tenet-subclass"
+pattern = "SubClassOf"
+description = "DignityTenet is a subclass of Tenet"
+subject = "https://wintermute.local/ontology/world#DignityTenet"
+superclass = "https://wintermute.local/ontology/world#Tenet"
+
+[[axioms]]
+id = "AC6-justice-tenet-subclass"
+pattern = "SubClassOf"
+description = "JusticeTenet is a subclass of Tenet"
+subject = "https://wintermute.local/ontology/world#JusticeTenet"
+superclass = "https://wintermute.local/ontology/world#Tenet"
+
+[[axioms]]
+id = "AC7-forbidden-action-equivalent"
+pattern = "EquivalentClasses"
+description = "ForbiddenAction is equivalent to ProhibitedAction"
+subject = "https://wintermute.local/ontology/world#ForbiddenAction"
+equivalent = "https://wintermute.local/ontology/world#ProhibitedAction"
+
+[[axioms]]
+id = "AC8-tenet-holder-restriction"
+pattern = "SubClassOf"
+description = "TenetHolder has some Tenet via hasTenet"
+subject = "https://wintermute.local/ontology/world#TenetHolder"
+superclass = "_restriction_"
+
+[[axioms]]
+id = "AC9-ethical-prohibited-disjoint"
+pattern = "DisjointClasses"
+description = "EthicalAction and ProhibitedAction are disjoint"
+subject = "https://wintermute.local/ontology/world#EthicalAction"
+other = "https://wintermute.local/ontology/world#ProhibitedAction"
+
+[[axioms]]
+id = "AC10-federation-agent-subclass"
+pattern = "SubClassOf"
+description = "FederationAgent is a subclass of Agent"
+subject = "https://wintermute.local/ontology/world#FederationAgent"
+superclass = "https://wintermute.local/ontology/world#Agent"

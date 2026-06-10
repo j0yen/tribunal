@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# stub: returns contract-shaped verdict based on case dir name prefix
+# Usage: <stub> check --owl <owl> --action <path> --format json --explain
+# We look at the action file path to determine the expected verdict prefix.
+
+set -euo pipefail
+
+# Find --action argument
+action_path=""
+while [[ $# -gt 0 ]]; do
+    if [[ "$1" == "--action" ]]; then
+        action_path="$2"
+        shift 2
+    else
+        shift
+    fi
+done
+
+if [[ -z "$action_path" ]]; then
+    echo '{"verdict":"allow","rule":"dignity-floor","axioms":[]}'
+    exit 0
+fi
+
+# Derive the case directory name from the action path
+case_dir=$(dirname "$action_path")
+case_name=$(basename "$case_dir")
+
+# Match verdict from prefix: deny-*, allow-*, flag-*
+if [[ "$case_name" == deny-* ]]; then
+    echo '{"verdict":"deny","rule":"dignity-floor","axioms":["dignity-floor"]}'
+elif [[ "$case_name" == flag-* ]]; then
+    echo '{"verdict":"flag","rule":"authority-without-accountability","axioms":["authority-without-accountability"]}'
+else
+    echo '{"verdict":"allow","rule":"dignity-floor","axioms":[]}'
+fi
